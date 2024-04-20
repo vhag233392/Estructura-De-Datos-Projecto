@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+label{
+
+    background-color: gainsboro;
+    border-radius: 9px;
+    border: 1px solid black;
+    color: black;
+    
+}
+
+
+button{
+    margin-top: 5px;
+    border: red 3px solid;
+    background-color: black;
+    color: red;
+    font-family: "Jersey 10 Charted", sans-serif;
+    
+    
+}
+

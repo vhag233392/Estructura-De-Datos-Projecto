@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+
+img{
+
+    height: 230px;
+    width: 210px;
+}
+
+table{
+
+    margin-top: 1%;
+}
+
+.fuente{
+    font-family: "Jersey 10 Charted", sans-serif;
+    
+    
+
+}
+
+button{
+    border: blue 3px solid;
+    background-color: black;
+    color: blue;
+    font-family: "Jersey 10 Charted", sans-serif;
+    
+    
+}
+
+#resultados{
+
+    color:red;
+    font-family: "Jersey 10 Charted", sans-serif;
+
+
+}

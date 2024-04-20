@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="empleado.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <table>
+        <Caption class="fuente"><h2>PRODUCTOS!</h2></Caption>
+        <tbody>
+            <tr>
+                <td>
+                    <center>
+                        <img src="img/bolas de dragon.jpg" alt="BOLAS DEL DRAGON">
+                        <br>
+                        <h3 class="fuente" style="color: green;">100$</h3>
+                        <input id="cantidad1" type="number" placeholder="CANTIDAD">
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <img src="img/muñeca.jpg" alt="JUGUETE DE HATSUNE">
+                        <br>
+                        <h3 class="fuente" style="color: green;">200$</h3>
+                        
+                        <input id="cantidad2" type="number" placeholder="CANTIDAD">
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <img src="img/katana con flow.jpg" alt="KATANA CON FLOW">
+                        <br>
+                        <h3 class="fuente" style="color: green;">300$</h3>
+                        <input id="cantidad3" type="number" placeholder="CANTIDAD">
+                    </center>
+                </td>
+            </tr>
+        </tbody>
+    </table><label for="">EL CLIENTE PAGO</label>
+    <input id="pagoCliente" type="number" placeholder="$$$"><br><br>
+    <button onclick="calcularTotal()">CALCULAR COSTO</button>
+    <div id="resultados"></div>
+    
+</center>
+    <script src="scriptEmpleado.js"></script>
+</body>
+</html>
+
+
+<button onclick="redireccionar()">VOLVER A INICIO DE SESION</button>
